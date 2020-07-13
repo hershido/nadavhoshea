@@ -1,0 +1,189 @@
+.music-player {
+	justify-content: space-between;
+	align-items: baseline;
+	position: absolute;
+	z-index: 40;
+	width: 100vw;
+	top: 10px;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.btn {
+	margin: 20px;
+}
+
+.progress-bar {
+	position: absolute;
+	height: 5px;
+	width: 100px;
+	background-color: grey;
+	right: 200px;
+	top: 130px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.inner-progress {
+	height: 5px;
+	width: 0;
+	border-radius: inherit;
+	background-color: white;
+}
+
+.ball {
+	position: absolute;
+	top: 50%;
+
+	transform: translate(-50%, -50%);
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: white;
+}
+
+.volume-bar {
+	position: absolute;
+
+	height: 5px;
+	width: 60px;
+	background-color: grey;
+	top: 130px;
+	right: 52px;
+	cursor: pointer;
+	border-radius: 5px;
+
+	/* -webkit-user-drag: none; */
+}
+
+.inner-volume {
+	height: 5px;
+	width: 0;
+	border-radius: inherit;
+	background-color: white;
+}
+
+.volume-ball {
+	position: absolute;
+	top: 50%;
+	-webkit-user-drag: none;
+
+	transform: translate(-50%, -50%);
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: white;
+}
+
+.player-controls {
+	position: absolute;
+	width: max-content;
+	right: 370px;
+	top: 124px;
+	font-size: 12px;
+}
+
+.control:hover,
+.fa-volume-up:hover,
+.fa-volume-mute:hover {
+	color: rgb(97, 97, 97);
+}
+
+.control:active,
+.fa-volume-up:active,
+.fa-volume-mute:active {
+	transform: translateY(2px);
+}
+
+.song-title {
+	position: absolute;
+	width: max-content;
+	top: 124px;
+	right: 610px;
+	font-size: 13px;
+}
+
+.fa-volume-up {
+	position: absolute;
+	top: 125px;
+	right: 22px;
+	font-size: 16px;
+}
+
+.fa-volume-mute {
+	position: absolute;
+	top: 125px;
+	right: 118px;
+	font-size: 16px;
+}
+
+.current-time,
+.duration {
+	font-size: 12px;
+	position: absolute;
+	right: 310px;
+	top: 125px;
+}
+
+.duration {
+	right: 154px;
+}
+
+@media screen and (max-width: 900px) {
+	.song-title {
+		right: 29px;
+		top: 160px;
+	}
+	.music-player {
+		top: 15px;
+	}
+}
+
+@media screen and (max-width: 584px) {
+	.music-player {
+		top: 40px;
+	}
+
+	.progress-bar {
+		left: 26px;
+		top: 130px;
+	}
+
+	.volume-bar {
+		left: 200px;
+		top: 130px;
+	}
+
+	.player-controls {
+		left: 8px;
+		top: 90px;
+		transform: none;
+		font-size: 16px;
+	}
+
+	.song-title {
+		left: 26px;
+		top: 165px;
+		transform: none;
+	}
+
+	.current-time {
+		top: 140px;
+		left: 26px;
+	}
+
+	.duration {
+		display: none;
+	}
+
+	.fa-volume-up {
+		top: 125px;
+		left: 270px;
+	}
+
+	.fa-volume-mute {
+		top: 125px;
+		left: 180px;
+	}
+}

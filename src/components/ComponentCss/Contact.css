@@ -1,0 +1,14 @@
+.contact-container {
+	color: white;
+	width: 80vw;
+	margin: 30px auto 0 auto;
+	height: 600px;
+	background-color: rgb(33, 36, 65);
+	border-radius: 5px;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.contact-heading {
+	font-size: 2em;
+}

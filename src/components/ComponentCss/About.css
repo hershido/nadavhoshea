@@ -1,0 +1,28 @@
+.about-container {
+	top: 80px;
+	color: white;
+	position: relative;
+	width: 90vw;
+	min-height: max-content;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.about-inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-top: 50px;
+}
+
+.about-body {
+	width: 50%;
+	margin: 0;
+}
+
+.profile-img {
+	border-radius: 5px;
+	max-height: 360px;
+	margin-right: 60px;
+}
