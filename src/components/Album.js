@@ -1,6 +1,11 @@
+//Album component features an image and a card that animates in on hover
+
+
 import React from 'react';
 import { motion } from 'framer-motion';
 
+
+// Animation Variants for framer-motion
 const imageVariants = {
 	hover: {
 		scale: 1.2,

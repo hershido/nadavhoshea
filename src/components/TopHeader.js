@@ -113,7 +113,7 @@ export default function TopHeader() {
 							<Logo />
 						</div>
 						<motion.div variants={noteVariants} className='logo-footnote'>
-							Musician - Producer - Mixer
+							Musician - Produker - Mixer
 						</motion.div>
 					</div>
 					<svg onClick={handleBurgerClick} className='burger' width='50' height='50' viewBox='0 0 256 247' fill='none' xmlns='http://www.w3.org/2000/svg'>

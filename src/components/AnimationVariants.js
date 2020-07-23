@@ -1,3 +1,5 @@
+//animation variants for framer motion
+
 const containerVariants = {
 	hidden: {
 		x: '-100vw',

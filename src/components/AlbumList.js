@@ -1,3 +1,5 @@
+//ALBUM INFO, this object populates the album grid
+
 const albumList = [
 	{
 		artist: 'Pink Floyd',
